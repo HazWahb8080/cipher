@@ -1,10 +1,10 @@
 import { NextUIProvider } from "@nextui-org/react";
-import HomePage from "./cipher/page";
+import Home from "./page";
 
 function MyApp({ Component, pageProps }) {
   return (
     <NextUIProvider>
-      <HomePage {...pageProps} />
+      <Home {...pageProps} />
     </NextUIProvider>
   );
 }
