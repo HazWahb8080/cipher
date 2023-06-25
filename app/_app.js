@@ -1,5 +1,5 @@
 import { NextUIProvider } from "@nextui-org/react";
-import HomePage from "./page";
+import HomePage from "./cipher/page";
 
 function MyApp({ Component, pageProps }) {
   return (

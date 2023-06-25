@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React from "react";
 import { NavLinks } from "./data";
-import "../../../../app/globals.css";
+import "../../../app/globals.css";
 function Header() {
   return (
     <div
